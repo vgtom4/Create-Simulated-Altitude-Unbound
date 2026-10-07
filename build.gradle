@@ -25,7 +25,8 @@ repositories {
 }
 
 base {
-    archivesName = mod_id
+    // modid-mcversion-modversion, the usual shape for a NeoForge jar
+    archivesName = "${mod_id}-${minecraft_version}"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
