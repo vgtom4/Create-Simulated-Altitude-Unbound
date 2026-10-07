@@ -116,11 +116,10 @@ dependencies {
 
     // --- Create et ses librairies (necessaires car Simulated expose leurs types) ---
     compileOnly("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    // Ponder embarque les classes Catnip de la nouvelle arborescence (catnip.animation, catnip.gui),
+    // celles que Simulated utilise. L'artefact Catnip 0.8.54 est reste sur l'ancienne (catnip.utility)
+    // et ne fournit rien d'utile ici, d'ou son absence.
     compileOnly("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}") { transitive = false }
-    compileOnly("net.createmod.catnip:Catnip-NeoForge-${minecraft_version}:${catnip_version}") { transitive = false }
-    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}") { transitive = false }
-    compileOnly("com.tterrag.registrate:Registrate:${registrate_version}") { transitive = false }
-    compileOnly("foundry.veil:veil-common-${minecraft_version}:${veil_version}") { transitive = false }
 
     // --- Mixin ---
     compileOnly "io.github.llamalad7:mixinextras-common:0.4.1"

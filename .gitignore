@@ -22,3 +22,6 @@ run
 
 # Claude Code local settings
 .claude/
+
+# Local MCP server config (machine-specific)
+.mcp.json
