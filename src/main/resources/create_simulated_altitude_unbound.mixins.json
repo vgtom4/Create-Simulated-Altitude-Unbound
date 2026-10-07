@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "fr.vgtom.create_simulated_altitude_unbound.mixin",
+  "plugin": "fr.vgtom.create_simulated_altitude_unbound.mixin.AltitudeUnboundMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AltitudeSensorBlockEntityMixin"
+  ],
+  "client": [
+    "client.AltitudeSensorMovementBehaviourMixin",
+    "client.AltitudeSensorScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

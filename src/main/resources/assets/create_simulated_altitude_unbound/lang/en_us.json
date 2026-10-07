@@ -1,0 +1,10 @@
+{
+  "create_simulated_altitude_unbound.altitude_sensor.scale": "Scale: %s to %s",
+  "create_simulated_altitude_unbound.altitude_sensor.mode.auto": "Calibration: world limits",
+  "create_simulated_altitude_unbound.altitude_sensor.mode.custom": "Calibration: custom",
+
+  "create_simulated_altitude_unbound.gui.altitude_sensor.max": "Top of the scale",
+  "create_simulated_altitude_unbound.gui.altitude_sensor.max.tip": "Altitude at the top of the gauge.\nLeave blank to follow the world's build limit.",
+  "create_simulated_altitude_unbound.gui.altitude_sensor.min": "Bottom of the scale",
+  "create_simulated_altitude_unbound.gui.altitude_sensor.min.tip": "Altitude at the bottom of the gauge.\nLeave blank to follow the world's build limit."
+}
