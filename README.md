@@ -69,9 +69,23 @@ is the client asking the server to apply a new range; a sensor riding a Simulate
 a sub-level plot, so that request checks reach against the sensor's projected world position rather
 than its raw block coordinates.
 
-## Screenshot
+## Screenshots
 
-![The Altitude Sensor screen with its scale set to 800 at the top and -64 at the bottom](docs/screenshot.png)
+Left blank, both boxes follow the world's build limits and show them as a grey hint — the sensor
+behaves exactly as it does without this mod. The handles read -64 and 320, the whole range the world
+can build.
+
+![The sensor screen with both boxes blank, hinting -64 and 320, and the handles at the ends of that range](screenshots/default_values.png)
+
+Type a scale and the gauge is regraduated over it. Here it runs 0 to 800, far past the build limit,
+and the two handles now pick a window between 206 and 611 — a resolution the default scale could not
+express.
+
+![The same screen with 800 typed at the top and 0 at the bottom, the handles reading 206 and 611](screenshots/custom_values.png)
+
+Everything applies as you type, with nothing to confirm:
+
+![Typing altitudes into both boxes while the handle labels re-scale to follow](screenshots/demo_tooltips.gif)
 
 ## Build
 

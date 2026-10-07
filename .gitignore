@@ -25,3 +25,7 @@ run
 
 # Local MCP server config (machine-specific)
 .mcp.json
+
+# Raw capture material, not used by the README
+screenshots/*.mp4
+screenshots/demo.gif
